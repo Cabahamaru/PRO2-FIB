@@ -1,0 +1,5 @@
+alias p2++ "g++ -D GLIBCXX DEBUG -O2 -Wall -Wextra -Werror -Wno-uninitialized
+-Wno-sign-compare -std=c++11"
+
+setenv INCLUSIONS /assig/pro2/inclusions
+setenv oBJECTES /assig/pro2/objectes
