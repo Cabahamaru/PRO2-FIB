@@ -1,0 +1,107 @@
+anadir_individuo x1
+anadir_individuo x2
+anadir_individuo x3
+anadir_individuo x4
+escribir_poblacion
+  d1 XX ($,$)
+  d2 XX ($,$)
+  d3 XY ($,$)
+  x1 XY ($,$)
+  x2 XY ($,$)
+  x3 XY ($,$)
+  x4 XY ($,$)
+reproduccion_sexual d1 d2 z1
+  no es posible reproduccion
+reproduccion_sexual d3 x1 z1
+  no es posible reproduccion
+reproduccion_sexual d3 d1 z1
+  no es posible reproduccion
+reproduccion_sexual d1 d3 z1
+reproduccion_sexual d1 d3 z2
+reproduccion_sexual z1 z2 x1
+  error
+reproduccion_sexual z1 d3 z4
+  no es posible reproduccion
+reproduccion_sexual z1 x3 z6
+reproduccion_sexual d1 z6 u8
+  no es posible reproduccion
+escribir_genotipo z1
+  X: 0 1 1 1 0 1
+  X: 0 1 1 0 1 0
+  1.1: 0 0 0 1 1
+  1.2: 1 0 0 1 1
+  2.1: 0 1 1 0 1 1
+  2.2: 1 1 1 0 1 0
+  3.1: 1 0 0 1 0
+  3.2: 0 1 0 1 1
+  4.1: 1 1 1 1 1 0 0 1
+  4.2: 1 1 1 0 1 1 0 1
+  5.1: 0 1 0 1 0
+  5.2: 0 0 1 1 0
+  6.1: 1 1 1 0 1 1 0
+  6.2: 1 1 0 1 1 1 0
+escribir_genotipo z3
+  error
+escribir_arbol_genealogico d1
+  Nivel 0: d1
+escribir_arbol_genealogico z2
+  Nivel 0: z2
+  Nivel 1: d3 d1
+anadir_individuo z3
+reproduccion_sexual z3 z6 z4
+escribir_poblacion
+  d1 XX ($,$)
+  d2 XX ($,$)
+  d3 XY ($,$)
+  x1 XY ($,$)
+  x2 XY ($,$)
+  x3 XY ($,$)
+  x4 XY ($,$)
+  z1 XX (d3,d1)
+  z2 XY (d3,d1)
+  z3 XX ($,$)
+  z4 XY (z6,z3)
+  z6 XY (x3,z1)
+escribir_arbol_genealogico z4
+  Nivel 0: z4
+  Nivel 1: z6 z3
+  Nivel 2: x3 z1
+  Nivel 3: d3 d1
+reproduccion_sexual d1 x1 j1
+reproduccion_sexual d2 x2 j2
+reproduccion_sexual j2 j1 h1
+reproduccion_sexual h1 z4 n4
+completar_arbol_genealogico d2
+  no es arbol parcial
+completar_arbol_genealogico n4
+  n4 z4 *z6* *x3* $ $ *z1* *d3* $ $ *d1* $ $ *z3* $ $ h1 *j1* *x1* $ $ *d1* $ $ *j2* *x2* $ $ *d2* $ $
+completar_arbol_genealogico n4
+  n4 z4 z6 *x3* $ $ *z1* *d3* $ $ *d1* $ $ *z3* $ $ *h1* *j1* *x1* $ $ *d1* $ $ *j2* *x2* $ $ *d2* $ $
+completar_arbol_genealogico n4
+  n4 z4 z6 x3 $ $ z1 d3 $ $ d1 $ $ z3 $ $ h1 j1 x1 $ $ d1 $ $ j2 x2 $ $ d2 $ $
+anadir_individuo d0
+reproduccion_sexual d0 x1 o1
+reproduccion_sexual d1 x2 o2
+reproduccion_sexual d2 x3 o3
+reproduccion_sexual z3 x4 o4
+reproduccion_sexual o1 o2 o5
+reproduccion_sexual o3 o4 o6
+reproduccion_sexual o5 o6 f1
+escribir_arbol_genealogico f1
+  Nivel 0: f1
+  Nivel 1: o6 o5
+  Nivel 2: o4 o3 o2 o1
+  Nivel 3: x4 z3 x3 d2 x2 d1 x1 d0
+reproduccion_sexual o5 x4 f2
+escribir_arbol_genealogico f2
+  Nivel 0: f2
+  Nivel 1: x4 o5
+  Nivel 2: o2 o1
+  Nivel 3: x2 d1 x1 d0
+reproduccion_sexual d0 o6 f3
+escribir_arbol_genealogico f3
+  Nivel 0: f3
+  Nivel 1: o6 d0
+  Nivel 2: o4 o3
+  Nivel 3: x4 z3 x3 d2
+acabar

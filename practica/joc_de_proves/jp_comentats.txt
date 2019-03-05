@@ -1,0 +1,425 @@
+6 
+2 5 6 5 8 5 7 
+6 4
+
+3
+d1
+X
+0 1 1 1 0 1
+0 0 1 0 1 1
+1 1 1 1 1  
+0 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 0 
+0 1 1 1 0   
+1 0 0 1 1 
+1 1 1 0 1 1 0 1
+0 1 1 0 1 1 1 0
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+
+d2
+X
+0 1 1 0 1 0
+1 1 0 0 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+ 
+d3
+Y
+0 1 1 0 1 0
+1 1 0 0 
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+
+anadir_individuo
+x1
+Y
+0 1 1 0 1 0
+1 1 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+ 
+anadir_individuo
+x2
+Y
+0 1 1 0 1 0
+1 1 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+
+anadir_individuo
+x3
+Y
+0 1 1 0 1 0
+1 1 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+ 
+anadir_individuo
+x4
+Y
+0 1 1 0 1 0
+1 1 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+ 
+escribir_poblacion
+ 
+reproduccion_sexual   CAS XX: ERROR
+d1 d2 z1 
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual  CAS YY: ERROR
+d3 x1 z1
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual  CAS YX: ERROR
+d3 d1 z1
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual  CAS XY: Correcte
+d1 d3 z1
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual  CAS XY: Correcte
+d1 d3 z2
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual  CAS XY: SON GERMANS!!!!! ERROR!!!
+z1 z2 x1
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual   CAS DE PARE I FILL ERROR!!!!
+z1 d3 z4
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+ 
+reproduccion_sexual  CAS CORRECTE: CREEN FILL
+z1 x3 z6
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual  CAS INCORRECTE: NET AMB AVIA!!!!
+d1 z6 u8
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+escribir_genotipo z1
+ 
+escribir genotipo z2
+ 
+escribir_genotipo z3
+ 
+escribir_arbol_genealogico d1
+ 
+escribir_arbol_genealogico z2
+ 
+escribir_arbol_genealogico_z6
+ 
+anadir_individuo
+z3
+X
+0 1 1 0 1 0
+1 1 0 0 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+ 
+reproduccion_sexual
+z3 z6 z4
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+escribir_poblacion
+ 
+escribir_arbol_genealogico z4
+
+reproduccion_sexual d1 x1 j1
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual d2 x2 j2
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+reproduccion_sexual j2 j1 h1
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+reproduccion_sexual h1 z4 n4
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+
+completar_arbol_genealogico d2 z2 c1 $ $ $ $
+
+completar_arbol_genealogico n4 z4 $ $ h1 $ $
+
+completar_arbol_genealogico n4 z4 z6 $ $ $ $ h1 j1 $ $ $
+
+completar_arbol_genealogico  n4 z4 z6 x3 $ $ z1 d3 $ $ d1 $ $ z3 $ $ h1 j1 x1 $ $ d1 $ $ j2 x2 $ $ d2 $ $
+
+anadir_individuo
+d0
+X
+0 1 1 0 1 0
+1 1 0 0 0 0
+0 1 1 1 0  
+1 0 0 1 1 
+1 1 1 0 1 1  
+0 1 1 0 1 1 
+1 1 1 1 1   
+0 1 0 1 0 
+1 1 1 1 1 0 0 1
+0 0 1 1 1 0 0 1
+1 1 1 0 1  
+0 0 1 1 0
+1 1 1 0 1 1 0
+1 1 0 1 1 1 0
+ 
+reproduccion_sexual d0 x1 o1
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual d1 x2 o2
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual d2 x3 o3
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+ 
+reproduccion_sexual z3 x4 o4
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual o1 o2 o5
+0 0 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual o3 o4 o6
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+reproduccion_sexual o5 o6 f1
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+escribir_arbol_genealogico f1 ARBRE COMPLET 
+ 
+reproduccion_sexual o5 x4 f2
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+escribir_arbol_genealogico f2 ARBRE AMB FAMILIARS NOMES DE PARE
+ 
+reproduccion_sexual d0 o6 f3
+0 1 2
+1 1 3
+1 0 5
+1 1 4
+0 0 3
+1 1 4
+1 0 2
+ 
+escribir_arbol_genealogico f3 ARBRE AMB FAMILIARS NOMES DE MARE
+ 
+acabar
+ 
+Els jocs de proves els hem realitzat conjuntament entre els 4 membres de l’equip. Durant unes hores ens hem dedicat a diferenciar i escollir diferents casos problemàtics per cada una de les funcions principals de la pràctica (Reproducció, Completar arbre, Escriure arbre) i així realitzar un millor joc de proves que comprovi casos més específics que els que comprova el joc de proves públic. Per tant cadascú de nosaltres a realitzat proves de les 3 funcions.
+ 
+Participants:
+Andreu Gallofré
+Joan Pont
+Miquel Martín
+Jaume Riera
+
+Grup 43
+ 
